@@ -52,7 +52,7 @@
 5. Then open the 'Modifiers' tab, Change the 'Automatic' order to 'Random but one by one' and increase the 'delay' to 2.0
 6. Open the menu 'shading', open the 'softness' section of the tab, set two key frams to x and y (click on the key frame diomand), increase the value to max (20.0)
 7. Move the frame to end the animation and change the x and y values to minimum in softness section. This will automatically add key to the frame.
-<img width="722" height="400" alt="Without NEON" src="https://github.com/jayasankai/DavinciResolve/assets/61721893/a68c1dab-7a14-4187-a70b-353f4f6cde08">
+<img width="722" height="400" alt="Cinamatics text" src="https://github.com/jayasankai/DavinciResolve/assets/61721893/a68c1dab-7a14-4187-a70b-353f4f6cde08">
 
 #### Text Effect 06: Hand writting text
 1. Import a video file to viode track 1
@@ -74,9 +74,20 @@
 17. Activate the 'Keyframes' tab (near to the 'Inspector')
 18. Select all the frames (appeas in yellow), right click on it and select 'Time streching'
 19. Play and adjest accordingly
-<img width="722" height="400" alt="image" src="https://github.com/jayasankai/DavinciResolve/assets/61721893/cc968fea-8f09-4123-91c0-e1f0659ca7ea">
+<img width="722" height="400" alt="Hand writting text" src="https://github.com/jayasankai/DavinciResolve/assets/61721893/cc968fea-8f09-4123-91c0-e1f0659ca7ea">
 
-
+#### Text Effect 07: Mirror text
+1. Go to 'Fusion' section, add a 'Text+' node
+2. Open the 'Inspector' menu, Type the text, Change the font..etc
+3. Select 'Text1' node, copy to duplicate and paste using menu
+4. Create a merge node by linking endpoint of the duplicate text to the 'Merge1' endpoint
+5. Select 'Merge2' node, open the 'Inspector' menu, click on the 'flip horizontal' icon to flip the text
+6. Go to the 'Settings' in the 'Inspector' menu, reduce the size of 'Blend' to 50%
+7. To modify the reflection letters, Click on 'Text1_1' and open the 'transform' tab in the 'Inspector', open 'Shear' and change as you need.
+8. Select 'Text1_1' node, add 'Rectangle' shaped mask
+9. Move down the mask to cut the latter part of the text.
+10. Increase the 'Soft edge' to apear letters
+<img width="722" height="400" alt="Mirror text" src="https://github.com/jayasankai/DavinciResolve/assets/61721893/cfe373d7-6cc9-4962-a30d-d9469ce1aa19">
 
 
 
