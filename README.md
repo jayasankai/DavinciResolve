@@ -13,3 +13,8 @@
 1. Add a title 'Text' to the track 01
 2. Right click on text tract -> create 'New compound clip'
 3. Go to 'Affects' -> select 'Degital Glitch' -> Grag and drop to compound text
+
+#### Text Effect 03: Type write text
+1. sadsfd
+2. sdf
+3. 
