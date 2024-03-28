@@ -8,13 +8,41 @@
 4. Edit as you need : Hint : use large font with bold text
 5. Activate the video track and go to "Inspector" -> change 'Composite Mode' to 'Foreground'
 6. Select 'text' track and go to "Inspector" -> 'Settings menu' menu -> change 'Composite Mode' to 'Alpha'
+<img width="722" height="400" alt="image" src="https://github.com/jayasankai/DavinciResolve/assets/61721893/7b188239-da4b-40eb-aa92-6a2afe4dfd33">
 
 #### Text Effect 02: Text with glitch effect
 1. Add a title 'Text' to the track 01
 2. Right click on text tract -> create 'New compound clip'
 3. Go to 'Affects' -> select 'Degital Glitch' -> Grag and drop to compound text
 
-#### Text Effect 03: Type write text
-1. sadsfd
-2. sdf
-3. 
+#### Text Effect 03: Type write text effect
+1. Import a video file to viode track 1
+2. Add a text+ "TEXT" to viode track 2, change the font to 'type writter' font and change the font size
+3. Place the starting key to first frame of the text -> go to "Inspector" -> 'Title menu' menu -> change 'write on''s end value to 0.0
+4. Place the end key frame of the text -> go to "Inspector" -> 'Title menu' menu -> change 'write on''s end value to 1.0
+
+#### Text Effect 04: Neon text
+1. Go to 'Fusion' section, add a 'Text+' node
+2. Activate the title by clicking 'activation' dot in the 'text+' node
+3. Change the font
+4. Change the color to 'BLACK'
+5. Duplicate the text by copy paste
+6. Change the color to 'NEON BLUE' on second text
+7. Select the second text and press 'shift+space' to get affect menu
+8. Select the 'Glow' affect and 'Add'
+9. Select the glow 1 node and press 'shift+space' to get affect menu
+8. Select the 'Glow' affect again and 'Add' 2nd glow
+9. Select the glow 2 and increase the glow size to 50%
+10. Select the glow 2 node and press 'shift+space' to get affect menu
+11. Select the 'Glow' affect again and 'Add' 3rd glow
+12. Select the glow 3 and increase the glow size to 100%
+13. Select the first frame of the video, then select 'Merge 2' node, go to the 'Settings' menu, Create a key frame in the 'Blend' option
+14. Add a key frame of blend 0
+15. Move few frames and change the blend to 1, this will add new key frame with NEON light
+16. Move few frames and change the blend to 0, this will add new key frame with NO-NEON light
+17. Repeate this as you need until Neon to off
+
+<img width="722" height="400" alt="Without NEON" src="https://github.com/jayasankai/DavinciResolve/assets/61721893/7334b3b0-4735-4c31-b19f-bdb5cbdceaa1">
+<img width="722" height="400" alt="With NEON" src="https://github.com/jayasankai/DavinciResolve/assets/61721893/176c68db-09aa-4871-bd29-468039823164">
+
+
