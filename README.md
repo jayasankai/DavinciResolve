@@ -1,5 +1,17 @@
 # Davinci Resolve - Video Editing Tool
 ## Text Title Effects
+### TEXT BEHIND moving objects
+#### Method 01: By manually selecting the object
+1. Import a video file to viode track 1
+3. Add a text title (or text+) "TEXT" to viode track 2
+4. Duplicate the video file in video track 1 to track 3
+5. Select duplicetd video, Go to 'Color' section, Select 'Windlow' tool, Select 'Pen' tool
+6. Add 'Alpha output' channel to video
+7. Select the front moving object to track
+8. Go to 'Tracker' section, select 'Frame', then play 'Track Fwd and Revs' to track the selection. Make sure 'Cloud Tracker' enabled.
+<img width="722" height="400" alt="TEXT BEHIND moving objects" src="https://github.com/jayasankai/DavinciResolve/assets/61721893/7837bdc0-74f5-41fa-a455-71b80a4c64bf">
+
+
 ### 7 BEST Text EFFECTS in Davinci Resolve 18
 #### Text Effect 01: Video within TEXT
 1. Import a video file to viode track 2
@@ -8,7 +20,7 @@
 4. Edit as you need : Hint : use large font with bold text
 5. Activate the video track and go to "Inspector" -> change 'Composite Mode' to 'Foreground'
 6. Select 'text' track and go to "Inspector" -> 'Settings menu' menu -> change 'Composite Mode' to 'Alpha'
-<img width="722" height="400" alt="image" src="https://github.com/jayasankai/DavinciResolve/assets/61721893/7b188239-da4b-40eb-aa92-6a2afe4dfd33">
+<img width="722" height="400" alt="Video within TEXT" src="https://github.com/jayasankai/DavinciResolve/assets/61721893/7b188239-da4b-40eb-aa92-6a2afe4dfd33">
 
 #### Text Effect 02: Text with glitch effect
 1. Add a title 'Text' to the track 01
