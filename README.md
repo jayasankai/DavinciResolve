@@ -5,12 +5,20 @@
 1. Import a video file to viode track 1
 3. Add a text title (or text+) "TEXT" to viode track 2
 4. Duplicate the video file in video track 1 to track 3
-5. Select duplicetd video, Go to 'Color' section, Select 'Windlow' tool, Select 'Pen' tool
-6. Add 'Alpha output' channel to video
+5. Select duplicetd video, Add 'Alpha output' channel to video
+6. Go to 'Color' section, Select 'Windlow' tool, Select 'Pen' tool
 7. Select the front moving object to track
 8. Go to 'Tracker' section, select 'Frame', then play 'Track Fwd and Revs' to track the selection. Make sure 'Cloud Tracker' enabled.
-<img width="722" height="400" alt="TEXT BEHIND moving objects" src="https://github.com/jayasankai/DavinciResolve/assets/61721893/7837bdc0-74f5-41fa-a455-71b80a4c64bf">
+<img width="722" height="400" alt="TEXT BEHIND moving objects: By manually selecting the object" src="https://github.com/jayasankai/DavinciResolve/assets/61721893/7837bdc0-74f5-41fa-a455-71b80a4c64bf">
 
+#### Method 01: Using 3D qualifier
+1. Import a video file to viode track 1
+3. Add a text title (or text+) "TEXT" to viode track 2
+4. Duplicate the video file in video track 1 to track 3
+5. Select duplicetd video, Add 'Alpha output' channel to video
+6. Go to 'Color' section, Select 'Windlow' tool, Select 'Qualifier' tool, Switch to '3D' qualifier.
+7. Select the front moving object to track, Use +ve, -ve pens to refine the selection
+<img width="722" height="400" alt="TEXT BEHIND moving objects: Using 3D qualifier" src="https://github.com/jayasankai/DavinciResolve/assets/61721893/68f90212-98e8-4d34-9587-7fc2da19478e">
 
 ### 7 BEST Text EFFECTS in Davinci Resolve 18
 #### Text Effect 01: Video within TEXT
