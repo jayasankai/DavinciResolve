@@ -11,7 +11,7 @@
 8. Go to 'Tracker' section, select 'Frame', then play 'Track Fwd and Revs' to track the selection. Make sure 'Cloud Tracker' enabled.
 <img width="722" height="400" alt="TEXT BEHIND moving objects: By manually selecting the object" src="https://github.com/jayasankai/DavinciResolve/assets/61721893/7837bdc0-74f5-41fa-a455-71b80a4c64bf">
 
-#### Method 01: Using 3D qualifier
+#### Method 02: Using 3D qualifier
 1. Import a video file to viode track 1
 3. Add a text title (or text+) "TEXT" to viode track 2
 4. Duplicate the video file in video track 1 to track 3
