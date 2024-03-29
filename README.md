@@ -33,7 +33,7 @@
 7. Select the front moving object to track, Use +ve, -ve pens to refine the selection
 <img width="722" height="400" alt="TEXT BEHIND moving objects: Using 3D qualifier" src="https://github.com/jayasankai/DavinciResolve/assets/61721893/68f90212-98e8-4d34-9587-7fc2da19478e">
 
-### 7 BEST Text EFFECTS in Davinci Resolve 18
+### BEST Text EFFECTS in Davinci Resolve
 #### Text Effect 01: Video within TEXT
 1. Import a video file to viode track 2
 2. Add a text title (or text+) "TEXT" to viode track 1
@@ -122,5 +122,11 @@
 10. Increase the 'Soft edge' to apear letters
 <img width="722" height="400" alt="Mirror text" src="https://github.com/jayasankai/DavinciResolve/assets/61721893/cfe373d7-6cc9-4962-a30d-d9469ce1aa19">
 
-
+#### Text Effect 08: Camera Fly-Through 3D Text
+1. Go to 'Effects', search for 'Fusion Composition' to timeline
+2. Select the clip and change the duration as needed (cmd + D)
+3. Go to 'Fusion' section, grab 'Renderer 3D' and 'Merge 3D' nodes to fusion plain
+4. Link output of each node to input in the sequence of 'Merge3D1' -> 'Renderer3D1' -> 'MediaOut1'
+5. Drag and drop the footage and 'Image Plane 3D' node to node tree
+6. 
 
