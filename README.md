@@ -125,8 +125,24 @@
 #### Text Effect 08: Camera Fly-Through 3D Text
 1. Go to 'Effects', search for 'Fusion Composition' to timeline
 2. Select the clip and change the duration as needed (cmd + D)
-3. Go to 'Fusion' section, grab 'Renderer 3D' and 'Merge 3D' nodes to fusion plain
+3. Go to 'Fusion' section, grab 'Renderer 3D' and 'Merge 3D' nodes to the fusion plane
 4. Link output of each node to input in the sequence of 'Merge3D1' -> 'Renderer3D1' -> 'MediaOut1'
-5. Drag and drop the footage and 'Image Plane 3D' node to node tree
-6. 
+5. Drag and drop the 'footage' (MediaIn1) and 'Image Plane 3D' nodes to the fusion plane
+6. Link each node in the sequence of 'MediaIn1' -> 'ImagePlane3D1' -> 'Merge3D1'
+7. Drag and drop 'Merge3D1' to left viewer plane
+8. If you see black bars in the view, click on the 'MediaIn1' then Shift+space to open effects.
+9. Search for 'Transform (Xf)' node and add
+10. Select 'Transform1' node, change the 'size' attribute to fit the video to plane
+11. Drag and drop the 'Camera 3D' and 'Text 3D' nodes to the fusion plane. Join each to 'Merge3D1'.
+12. Select the 'Camera3D1' change the z-axis to view the text and plane.
+13. Select the 'Text3D1', add the text in 'Inspector'. If the text not visible correctly, change the z-axis also in 'Transform' tab in the 'Inspector'.
+14. Add the 'Extrusion Depth' to text in 'Extrusion' section in the in the 'Inspector'.
+15. Add Texture: Select 'Text3D1', press Shift+space to add 'Replace Matetial 3D'
+16. Go to 'Effects' -> 'Templates' -> 'Fusion' -> 'Shaders' -> select 'Chrome'. Drag and drop to the fusion plane. Link it to the 'ReplaceMatetial3D1'
+17. Select the first key frame and pin
+18. Move to end frame of the animation and change the x,y,z axis to make a fly-through
+19. Go to 'Edit' Segment and check how it looks like.
+<img width="722" height="400" alt="Camera Fly-Through 3D Text" src="https://github.com/jayasankai/DavinciResolve/assets/61721893/6b21a662-7538-4a6c-a2b9-ea56de792f63">
+
+
 
