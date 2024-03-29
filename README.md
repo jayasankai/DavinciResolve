@@ -1,4 +1,17 @@
 # Davinci Resolve - Video Editing Tool
+## Video Transition
+### Ink effect
+1. Import 'Ink Drop Reveal - 3.mp4' to video track 2
+2. Invert color : Select 'Color' section, search for 'Invert Color' from 'Effects'
+3. Drag and drop the effect to video
+4. Add background : Go to 'Edit section, Select 'Paper' from 'Generators' and add to video track 1
+5. Change the paper properties in paper in 'Inspector' section to make it 'Old Matt' paper
+6. Select 'Ink Drop' video track and go to 'Inspector' -> select 'Lum' from the 'composite' mode
+7. Import the video for Ink Transition. use video track 3
+8. Select the added video and go to 'Inspector' -> select 'Foreground' from the 'composite' mode
+<img width="722" height="400" alt="Ink effect" src="https://github.com/jayasankai/DavinciResolve/assets/61721893/b8833bc4-827a-4467-ac2e-9af6c46702dd">
+
+
 ## Text Title Effects
 ### TEXT BEHIND moving objects
 #### Method 01: By manually selecting the object
