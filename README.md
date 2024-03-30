@@ -1,4 +1,55 @@
 # Davinci Resolve - Video Editing Tool
+## Fusion Particles
+### Logo dissolve
+1. Go to 'Effects', search for 'Fusion Composition' to timeline
+2. Select the clip and change the duration (cmd + D) to 7 seconds
+3. Go to 'Fusion' section, grab 'pEmitter' and 'pRender' nodes to the fusion plane
+4. Connect 'pEmitter' -> 'pRender' -> 'MediaOut1'
+5. Select 'pEmitter' and change the number of particles 70000
+6. Select 'pRender' make sure the output mode '2D'
+7. Select 'pEmitter' again and select 'Region' as 'Bitmap' in 'Region' section
+8. Drag the logo as a node (MediaIn1) and connect to 'pEmitter'.
+9. Select 'pEmitter' -> controlers 'Color' -> change to 'use color from region' from 'use style color'
+10. Disconnect the logo (MediaIn1) and drag and drop to left viewer to see the resolution
+11. Select MediaIn1 and Shift+space to add 'Resize' fn
+12. Select 'Resize1' -> click 'Reset Size' in the 'inspector'
+13. Drag and drop 'Resize1' to left viewer to see the size
+14. Select 'Resize1' -> Shift+space to add 'Transform' fn
+15. Drag and drop 'Transform1' to left viewer and chaneg the size, aspect, possition from the 'inspector'
+16. Drag 'Plogon' mask to the fusion plane
+17. Drow a pligon partially cover the logo and big enough to cover the full logo later
+18. Copy the mask (cmd+c) and paste using cmd+shift+v to create new instace of the mask (Instance_Polygon1)
+19. Select 'Instance_Polygon1' and in the 'inspector', right click on 'boarder width' -> select 'Deinstance' : to change the border width without changing the original mask.
+20. Uncheck the 'Solid' option of the 'Instance_Polygon1'
+21. Drag and drop a 'Merge' node to the fusion plane
+22. Connect output of 'Poligon1' mask's output to input of 'Merge1'
+23. Connect output of 'Instance_Polygon1' to green arrow of the 'Merge1' (foreground)
+24. Click on 'Merge1' -> change the 'Operator' from 'over' to 'xOR'
+25. Select 'Instance_Polygon1' and change the 'Border Width' as needed : everything in the border is visible and black part invisible
+26. Transfor the mask to black and white image by adding 'Bitmap' to the fusion plane: press shift+space
+27. Connect 'Merge1' to 'Bitmap1'
+28. Press shift+space again to add 'Matte Controle'
+29. Connect 'Bitmap1' gray output to garbage input (gray arrow in the bottom) of the 'MatteControl1'
+30. Connect 'Transform1' to yellow arrow of the 'MatteControl1'
+31. Connect 'MatteControl1' to 'pEmitter'
+32. Drag 'MediaOut1' to right plane to see the status
+33. Select 'MatteControl1' -> select 'Garbage Matte' to 'Invert' in the 'Inspector'
+34. Select 'pEmitter' -> shift+space and search for 'pDirectionalForce' and add
+35. Select 'pDirectionalForce1' and change the direction to 45
+36. Select 'pDirectionalForce1' and shift+space for search 'pTurbulence' and add
+37. Change the properties x,y,z 'Strength' to .2, .2, .3 and change the 'Density' to 50
+38. Select 'Plogon1' -> move to frame 0 -> add a key frame in 'center'
+39. Drag the mask out of the logo and Pull over to cover the full logo
+40. Multi select 'MediaIn1' + 'Resize1' + 'Transform1' and paste to the fusion plane
+41. Connect the segment through a Merge (select output of 'Transform1_1' drag and drop to output of 'pRender') : Make sure 'Transform1_1' and 'Merge2' connect via Grean connect
+42. Drag 'Merge2' to right plane to see the status
+43. Copy 'Plogon1' mask and paste to the fusion plane and connect to 'Merge2' node
+44. Select 'Plogon1_1' and tick on 'Invert' and 'solid'
+45. Change the Soft Edge too
+46. Render the animation
+<img width="722" height="400" alt="Logo dissolve" src="https://github.com/jayasankai/DavinciResolve/assets/61721893/ea4d7b09-54c6-4b67-ac22-b39732617667">
+ 
+
 ## Video Transition
 ### Ink effect
 1. Import 'Ink Drop Reveal - 3.mp4' to video track 2
