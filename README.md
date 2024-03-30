@@ -8,8 +8,11 @@
 5. Set a key frame in first frame in 'write on' of the 'Stroke Controle' section
 6. Set a end key frame and change 'write on' END to 1.0
 7. Copy 'Paint1' and paste
-8. Select 'Paint1_1' and go to 'Modifiers'
-9. Go to first frame and set 'write on' Start and End to 0.001
+8. Select 'Paint1_1' and go to 'Modifiers', change the color and set spacing to 0
+9. Go to first frame and set 'write on' Start=0.0 and End=0.001
+10. Go to last frame and set 'write on' Start=0.998 and End=0.999
+11. Additional: chaneg the 'Brush shape' to 'Image', change the brush shape as needed.
+<img width="722" height="400" alt="Travel Path" src="https://github.com/jayasankai/DavinciResolve/assets/61721893/e52cbfba-4049-40b6-957c-027bce17f165">
 
 
 ## Fusion Particles
