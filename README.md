@@ -1,4 +1,17 @@
 # Davinci Resolve - Video Editing Tool
+## Fusion Path
+### Travel Path
+1. Import an immage to the video track 1
+2. Go to 'Fusion', select 'MediaIn1' and press shift+space to add 'Paint' tool
+3. Select 'Paint1' and change to 'PolyLineStroke' -> drow the map path
+4. Change the color, size, softness, Spacing (in Stroke Controle)
+5. Set a key frame in first frame in 'write on' of the 'Stroke Controle' section
+6. Set a end key frame and change 'write on' END to 1.0
+7. Copy 'Paint1' and paste
+8. Select 'Paint1_1' and go to 'Modifiers'
+9. Go to first frame and set 'write on' Start and End to 0.001
+
+
 ## Fusion Particles
 ### Logo dissolve
 1. Go to 'Effects', search for 'Fusion Composition' to timeline
